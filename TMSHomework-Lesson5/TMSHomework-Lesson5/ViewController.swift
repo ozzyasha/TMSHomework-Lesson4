@@ -48,6 +48,9 @@ class ViewController: UIViewController {
         print(divider)
         // MARK: вызов функции #4
         
+        print(convertStringToInt(string: "123")!)
+        print(convertStringToInt(string: nil) as Any)
+        
         print(divider)
         // MARK: вызов функции #5
         
