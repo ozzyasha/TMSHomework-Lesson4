@@ -60,6 +60,8 @@ class ViewController: UIViewController {
         print(divider)
         // MARK: вызов функции #6
         
+        print(showClothesMessage(clothes: .hoodie))
+        print(showClothesMessage(clothes: .jeans))
     }
 
 
