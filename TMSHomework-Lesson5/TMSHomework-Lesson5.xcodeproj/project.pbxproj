@@ -15,6 +15,10 @@
 		7AA38F402B1A015300C16692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA38F3E2B1A015300C16692 /* LaunchScreen.storyboard */; };
 		7AA38F482B1A164E00C16692 /* Task2 - unwrapOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA38F472B1A164E00C16692 /* Task2 - unwrapOptional.swift */; };
 		7AA38F4A2B1A217E00C16692 /* Task1 - makeOptionalDoubled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA38F492B1A217E00C16692 /* Task1 - makeOptionalDoubled.swift */; };
+		7AA38F4C2B1A251400C16692 /* Task3 - checkOptionalWithGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA38F4B2B1A251400C16692 /* Task3 - checkOptionalWithGuard.swift */; };
+		7AA38F4E2B1A266800C16692 /* Task4 - convertStringToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA38F4D2B1A266800C16692 /* Task4 - convertStringToInt.swift */; };
+		7AA38F502B1A276900C16692 /* Task5 - showBookDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA38F4F2B1A276900C16692 /* Task5 - showBookDescription.swift */; };
+		7AA38F522B1A27B000C16692 /* Task6 - showClothesMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA38F512B1A27B000C16692 /* Task6 - showClothesMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		7AA38F412B1A015300C16692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AA38F472B1A164E00C16692 /* Task2 - unwrapOptional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task2 - unwrapOptional.swift"; sourceTree = "<group>"; };
 		7AA38F492B1A217E00C16692 /* Task1 - makeOptionalDoubled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task1 - makeOptionalDoubled.swift"; sourceTree = "<group>"; };
+		7AA38F4B2B1A251400C16692 /* Task3 - checkOptionalWithGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task3 - checkOptionalWithGuard.swift"; sourceTree = "<group>"; };
+		7AA38F4D2B1A266800C16692 /* Task4 - convertStringToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task4 - convertStringToInt.swift"; sourceTree = "<group>"; };
+		7AA38F4F2B1A276900C16692 /* Task5 - showBookDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task5 - showBookDescription.swift"; sourceTree = "<group>"; };
+		7AA38F512B1A27B000C16692 /* Task6 - showClothesMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task6 - showClothesMessage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,10 @@
 				7AA38F352B1A015100C16692 /* SceneDelegate.swift */,
 				7AA38F492B1A217E00C16692 /* Task1 - makeOptionalDoubled.swift */,
 				7AA38F472B1A164E00C16692 /* Task2 - unwrapOptional.swift */,
+				7AA38F4B2B1A251400C16692 /* Task3 - checkOptionalWithGuard.swift */,
+				7AA38F4D2B1A266800C16692 /* Task4 - convertStringToInt.swift */,
+				7AA38F4F2B1A276900C16692 /* Task5 - showBookDescription.swift */,
+				7AA38F512B1A27B000C16692 /* Task6 - showClothesMessage.swift */,
 				7AA38F372B1A015100C16692 /* ViewController.swift */,
 				7AA38F392B1A015100C16692 /* Main.storyboard */,
 				7AA38F3C2B1A015300C16692 /* Assets.xcassets */,
@@ -145,10 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AA38F382B1A015100C16692 /* ViewController.swift in Sources */,
+				7AA38F4C2B1A251400C16692 /* Task3 - checkOptionalWithGuard.swift in Sources */,
 				7AA38F342B1A015100C16692 /* AppDelegate.swift in Sources */,
+				7AA38F502B1A276900C16692 /* Task5 - showBookDescription.swift in Sources */,
 				7AA38F482B1A164E00C16692 /* Task2 - unwrapOptional.swift in Sources */,
 				7AA38F362B1A015100C16692 /* SceneDelegate.swift in Sources */,
 				7AA38F4A2B1A217E00C16692 /* Task1 - makeOptionalDoubled.swift in Sources */,
+				7AA38F522B1A27B000C16692 /* Task6 - showClothesMessage.swift in Sources */,
+				7AA38F4E2B1A266800C16692 /* Task4 - convertStringToInt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
