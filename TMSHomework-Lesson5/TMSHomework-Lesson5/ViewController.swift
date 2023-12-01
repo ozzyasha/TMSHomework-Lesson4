@@ -54,10 +54,12 @@ class ViewController: UIViewController {
         print(divider)
         // MARK: вызов функции #5
         
+        print(showBookDescription(book: .theCatcherInTheRye))
+        print(showBookDescription(book: .toKillAMockingbird))
+            
         print(divider)
         // MARK: вызов функции #6
         
-        print(divider)
     }
 
 
