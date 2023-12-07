@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     
     let divider = "------------------------------------" // разделитель для вывода в консоли
     override func viewDidLoad() {
@@ -56,15 +56,12 @@ class ViewController: UIViewController {
         
         print(showBookDescription(book: .theCatcherInTheRye))
         print(showBookDescription(book: .toKillAMockingbird))
-            
+        
         print(divider)
         // MARK: вызов функции #6
+    
+        print(Clothes.dressPants.showClothesMessage())
         
-        print(showClothesMessage(clothes: .hoodie))
-        print(showClothesMessage(clothes: .jeans))
     }
-
-
-
 }
 
